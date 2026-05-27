@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <!-- <p>universal selector</p> -->
+    <style>
+        
+        h1 , h2, .big{
+           margin: 0;
+           padding: 0;
+           background-color:yellow; 
+        }
+        
+        .green {
+            color: green;
+
+        }
+
+        .red {
+            color: red;
+        }
+
+        .small {
+            font-size: 12px;
+        }
+
+        .big {
+            font-size: 24px;
+        }
+
+        #p1 {
+            background-color: yellow;
+        }
+        div p{
+            font-style: italic;
+        }
+    </style>
+    <!-- <p>class selector is used in production website</p> -->
+</head>
+
+<body>
+    <!-- <p>Id selector is used to select specific element</p> -->
+
+    <h1 id="mainElement" class="green big">CSS selectors</h1>
+    <p id="p1" class="red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis expedita dolorem quisquam!
+        Reiciendis eius fugiat
+        culpa eveniet sapiente, esse consequatur ad at. Vel, dolorum, nostrum ex vitae qui nihil delectus quos facilis
+        sit dolore impedit maiores quae? Nostrum facere at voluptate doloribus iusto ex veritatis!</p>
+    <h2 class="red small">Element selector</h2>
+    <p>Element selector selects all the elements</p>
+    <div>
+        <p>This is a paragraph inside a div.</p>
+    </div>
+</body>
+
+</html>

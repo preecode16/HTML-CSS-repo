@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+</head>
+<style>
+    .container {
+        width: 80vw;
+        height: 90vh;
+        /* padding: 6px; */
+        
+        border: 2px solid red;
+        display: flex;
+        flex-direction: row;
+        /* justify-content:flex-end; */
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* flex-wrap: wrap-reverse; */
+        /*if flex-direction is in main axis then justify content will start aligning items vertically and
+      
+      
+      if flex-direction is in the cross axis then align-items will start aligning items horizontally*/
+    
+         gap: 20px;
+    
+    
+    }
+
+    .Box {
+        height: 56px;
+        width: 100px;
+        /* margin: 10px; */
+        border: 2px solid green;
+        /* flex-grow: 1; */
+        flex-shrink: 1;
+        flex-basis: 50vw;
+    }
+
+    #box1{
+    flex-shrink: 3;
+
+}
+</style>
+
+<body>
+    <div class="container"> <!--flex container-->
+        <div class="Box" id="box1"> Box 1
+        </div>
+        <div class="Box">Box 2</div>
+        <div class="Box"> Box 3
+        </div>
+        <div class="Box">Box 4</div>
+        <div class="Box">Box 5</div> <!--flex items -->
+
+</body>
+
+</html>

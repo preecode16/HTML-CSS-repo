@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Fitness forms</h1>
+    <form action="/process.php">
+
+        <label1 for="text">Name</label1>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <label1 for="phone">Phone</label1>
+        <input type="tell" id="phone">
+        <br>
+        <br>
+
+        <label1 for="pass">password</label1>
+        <input type="password" id="pass">
+
+        <br>
+        <br>
+
+        <label1 for="cpass">confirm password</label1>
+        <input type="password" id="cpass">
+
+        <br>
+        <br>
+        <p>choose your gender</p>
+        <label1 for="gender">Male</label1>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label1 for="gender">Female</label1>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label1 for="gender">Other</label1>
+        <input type="radio" id="other" name="gender" value="Other">
+
+        <!--use radio buttons when users need to to select one option from many . all the radio buttons in a group should have same name .  only one option can be selected-->
+        -->
+
+        <p>Chooose your Hobbies</p>
+        <label for="Hobbies">sports</label>
+        <input type="checkbox" id="sports" name="Hobbies" value="sports">
+
+        <label for="Hobbies">singing</label>
+        <input type="checkbox" id="singing" name="Hobbies" value="singing">
+
+        <label for="Hobbies">coding</label>
+        <input type="checkbox" id="coding" name="Hobbies" value="coding">
+
+        <label for="Hobbies">gym</label>
+        <input type="checkbox" id="gym" name="Hobbies" value="gym">
+        <br><br>
+        <!--use checkbox buttons when users need to to select more than 2  options from multiple options  -->
+
+
+
+        <label1 for="city">choose a city:</label1>
+        <select id="city" name="city">
+            <option value="delhi">Delhi</option>
+            <option value="manglore">Manglore</option>
+            <option value="banglore">Banglore</option>
+
+            <!-- <P>use <select> tag with <option> tag to let users pick one option from a dropdown</P> -->
+
+
+
+
+        </select>
+
+        <br><br>
+        <label for="message">your a message</label>
+        <textarea name="descrption" rows="44" cols="89" id="description"></textarea>
+
+
+        <!-- use <textarea> tag to let users type multiple lines of text -->
+        <br>
+        <br>
+
+
+
+
+
+
+
+
+        <input type="Submit" value="Submit">
+
+
+
+
+    </form>
+
+</body>
+
+</html
